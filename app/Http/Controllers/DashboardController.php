@@ -50,6 +50,7 @@ class DashboardController extends Controller
         // dd($cart);
         return view('cart',[
             'cart' => $cart,
+            // 'product' => $product,
         ]);
     }            
 }
